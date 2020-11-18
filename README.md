@@ -1,6 +1,6 @@
 # sentiment-semantic-analysis
 
-##A. Sentiment Analysis
+## A. Sentiment Analysis
 1. I have considered only message present in tweets.
 2. Data cleaning[1][2] is done using regular expression technique with regex function in python. Cleaned tweets are available at cleanedtweets.csv
 3. Bag of words are created using python script for every tweet[3][4].
@@ -13,7 +13,7 @@ The script for above sentimental analysis is available in Sentimental Analysis.p
 6. Using Tableau, I have visualized frequently occurring words for individual positive and negative word clouds as well as both word cloud[5].
 All word cloud visualizations are available at Negative Word Cloud Fullscreen.png, Negative Word Cloud.png, Positive and Negative Word Cloud Fullscreen.png, Positive and Negative Word Cloud.png, Positive Word Cloud Fullscreen.png, Positive Word Cloud.png.
 I have maintained all matched words when calculating the polarity and saved them into csv files. Data source for word cloud is available in files negativewordcloud.csv, positivewordcloud.csv and wordcloud.csv, by using these data sources I have created sheets with visualizations.
-##B. Semantic Analysis
+## B. Semantic Analysis
 7. I have obtained news articles and cleaned them using regular expression technique in python. I have saved every article into a new document in json format[6]. The documents are available in jsonfiles folder[7].
 8. Each file is considered as one news article which is cleaned.
 9. Each news file contains title, description and content.
@@ -21,7 +21,7 @@ I have maintained all matched words when calculating the polarity and saved them
 	10.a. I have calculated total number of documents[8]. It is available in file total_no_news.json, and I have considered search query with words “Canada”, “University”, “Dalhousie University”, “Halifax”, “Business”, and searched in every document to find out in how many documents these words have appeared[9]. The output file is saved into tf_idf.xlsx, where total documents (N), search keyword, document count for each keyword (df), N/df value and Log10(N/df) values are calculated and available[10][11].
 	10.b. By considering search term as “Canada”, I calculated the count of occurrence of this word in each article. I have found the article that has the maximum occurrence of word “Canada”, by retrieving and printing entry with maximum value of frequency. The output file is saved into canadadf.xlsx with filenames and their total words (m), frequency (f) and relative frequency (f/m). I have found the article which contains highest frequency and printed it on console and is available at Output.png.
 	10.c. I have also computed relative frequency (f/m) value for each article and saved into canadadf.xlsx, and I have found the news article which has highest relative frequency (f/m) value by finding and retrieving the maximum of relative frequency (f/m) column. The article output is printed on console and is available at Output.png.
-##References:
+## References:
 [1] J. Brownlee, “How to Clean Text for Machine Learning with Python,” Machine Learning Mastery, 17-Oct-2017. [Online]. Available: https://machinelearningmastery.com/clean-text-machine-learning-python/. [Accessed: 13-Apr-2020]
 [2] “Python re.sub Examples,” Lzone.de, 2020. [Online]. Available: https://lzone.de/examples/Python%20re.sub. [Accessed: 13-Apr-2020]
 [3] insightsbot, “Bag of Words Algorithm in Python Introduction,” InsightsBot, 09-Dec-2017. [Online]. Available: http://www.insightsbot.com/bag-of-words-algorithm-in-python-introduction/. [Accessed: 13-Apr-2020]
