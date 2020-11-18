@@ -1,5 +1,12 @@
 # sentiment-semantic-analysis
 
+## Hypothetical Scenario:
+XYZ is a startup in Halifax, which is planning to build a data management portal for the Halifax region. The system can be conceptualized as a content management system (CMS). The project has three components,  
+(1) Data management,  
+(2) Visualization-Analytics, and  
+(3) Front-end design.  
+In this phase, the project focuses on data analysis. Data extracted from Twitter, and NEWS API will be used to perform semantic, sentiment analysis. As an information specialist, you will design an analytics engine, which will be used to improve public and private services in Halifax region.
+
 ## A. Sentiment Analysis
 1. I have considered only message present in tweets.
 2. Data cleaning[1][2] is done using regular expression technique with regex function in python. Cleaned tweets are available at cleanedtweets.csv
